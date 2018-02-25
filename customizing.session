@@ -1,0 +1,82 @@
+Customizing UI
+
+Preparation
+
+	• Start the Android emulator
+	• Make sure that Surface is connected to TripMate
+	• Make sure that TripMate is connected to Internet
+	• Make sure that Phone is connected to TripMate
+	• Make sure that Mac is connected to TripMate
+	• Open TightVNC and connect to the Mac
+	• Exit all apps on iOS
+	• Start UsingConstraints on iOS
+	• Start MvvmInjection on iOS
+	• Start SimpleInjection on iOS
+	• Open presentation
+	• Load Customizing session in PresentationBuddy
+	• Create a new blank UWP application, name it WhyResponsive
+	• Open XAML in Designer, 23''
+	• Copy all apps to Desktop
+	• Open UsingStackLayout
+	• Open Android designer
+	• Open UsingRelativeLayout
+	• Open Android designer
+	• Open UsingConstraints
+	• Open Storyboard designer
+	• Open UsingVsm - Start
+	• Font 17
+	• Check snippets
+	• Open UsingVsm - Start in Blend
+	• Open MainPage
+	• Open SecondPage
+	• Open DesignDataSample
+	• Check snippets
+	• Open Android designer
+	• Font 17
+	• Open DesignDataSample in Blend
+	• Make sure that the list has ItemsSource and ItemTemplate set
+	• Font 17
+	• Open SimpleInjection
+	• Font 17
+	• Open MvvmInjection
+	• Font 17
+	• Open MainPage.xaml in Windows Designer
+	• Check that UsingVsm is installed in Windows Phone and works
+	• Check Project my Screen
+	• Check that UsingVsm is installed in Windows and works
+	• Check that DesignDataSample is installed in Windows and works
+	• Check that SimpleInjection is installed in Windows and works
+	• Check that MvvmInjection is installed in Windows and works
+	• Check that UsingStackLayout is installed in Android and works
+	• Check that UsingRelativeLayout is installed in Android and works
+	• Check that DesignDataSample is installed in Android and works
+	• Check that SimpleInjection is installed in Android and works
+	• Check that MvvmInjection is installed in Android and works
+	• Exit all apps
+	• Open https://github.com/dotMorten/WindowsStateTriggers in Edge
+
+Introduction	4'	0:04
+Demo: The Importance of Responsiveness	5'	0:09
+        • New UWP application
+        • Add new button with a long text
+        • Add a TextBlock below
+        • Run, resize window
+        • Show issue
+        • Change button and TextBlock alignment
+        • Make root a StackPanel
+        • Run
+Responsive User Interface: The 6 R	6'	0:15
+Demo: Using VSM	9'	0:24
+Demo: Android dynamic layout	6'	0:30
+        • UsingStackLayout
+        • UsingRelativeLayout
+Demo: iOS Constraints	5'	0:35
+Using design time data	6'	0:41
+Demo: Design time data in the designer	4'	0:45
+        • Show DesignDataSample
+Dependency Injection Refresher	5'	0:50
+Demo: Using design time data	12'	1:02
+        • Show SimpleInjection
+        • Show MvvmInjection
+Other tricks	8'	1:10
+Resources, Conclusion	5'	1:15
