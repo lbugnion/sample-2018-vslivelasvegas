@@ -1,16 +1,19 @@
-# Visual Studio Live 2017, Redmond WA
+# Visual Studio Live 2018, Las Vegas NV
 
-My code samples for the Visual Studio Live conference 2017 in Redmond WA.
+My code samples for the Visual Studio Live conference 2018 in Las Vegas NV.
 
 # Presentation details, Slides
 
 You can see the details and the slides here:
 
 Customizing your UI for Mobile Devices: Techniques to Create a Great User Experience 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017014
+http://galasoft.ch/presentations/2018010
 
-Building Truly Universal Applications with Windows, Xamarin and MVVM 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017015
+Porting MVVM Light to .NET Standard: Lessons Learned
+http://galasoft.ch/presentations/2018011
+
+Serverless computing: Azure Functions and Xamarin in 20 minutes
+http://galasoft.ch/presentations/2018012
 
 # Content
 
@@ -50,22 +53,14 @@ An example using design time data with dependency injection without external fra
 
 An example using design time data with dependency injection with MVVM Light.
 
-## 02 Mvvm
+## 02 DotNetStandard
 
-Code samples for Building Truly Universal Applications with Windows, Xamarin and MVVM
+Code samples for Porting MVVM Light to .NET Standard: Lessons Learned
 
-### HelloXamarin MVVM
+TO BE DONE
 
-Shows a simple MVVM based application for Xamarin "classic" after refactoring.
+## 03 FunctionsAndXamarin
 
-### XamBindingSample
+Code samples for Serverless computing: Azure Functions and Xamarin in 20 minutes
 
-Shows a lot of binding and commanding examples for Xamarin.iOS, Xamarin.Android and Windows, as well as Observable lists for Android
-
-### ObservableListApple
-
-Shows a sample with observable lists for iOS.
-
-### Flowers
-
-A complete MVVM Light sample app for Xamarin.iOS, Xamarin.Android, Windows 10, Xamarin.Forms and more.
+TO BE DONE
