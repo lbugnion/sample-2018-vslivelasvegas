@@ -253,3 +253,4 @@ paket-files/
 *.sln.iml
 /02 DotNetStandard/SharedFiles/packages/
 /02 DotNetStandard/SharedFiles - Start/packages
+/02 DotNetStandard/Portable/packages
