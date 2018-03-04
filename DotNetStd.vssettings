@@ -134,7 +134,9 @@
 
             Console.WriteLine("Enter the second operand");
             var num2 = int.Parse(Console.ReadLine());
-</PropertyValue><PropertyValue name="Item13.Position">14</PropertyValue><PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item14.ID">2F474D5A1719B2534A04CF284AEB4023</PropertyValue><PropertyValue name="Item14.Name">Compute</PropertyValue><PropertyValue name="Item14.UseDefaultName">false</PropertyValue><PropertyValue name="Item14.Tab">General</PropertyValue><PropertyValue name="Item14.TabID">General</PropertyValue><PropertyValue name="Item14.OriginalTabID">General</PropertyValue><PropertyValue name="Item14.OriginalTab">General</PropertyValue><PropertyValue name="Item14.RecordType">1</PropertyValue><PropertyValue name="Item14.Data">
+</PropertyValue><PropertyValue name="Item13.Position">14</PropertyValue><PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue><PropertyValue name="Item14.ID">36FC2A3AB2E1FFB1204F0314EE8CCFE6</PropertyValue><PropertyValue name="Item14.Name">Compute</PropertyValue><PropertyValue name="Item14.UseDefaultName">false</PropertyValue><PropertyValue name="Item14.Tab">General</PropertyValue><PropertyValue name="Item14.TabID">General</PropertyValue><PropertyValue name="Item14.OriginalTabID">General</PropertyValue><PropertyValue name="Item14.OriginalTab">General</PropertyValue><PropertyValue name="Item14.RecordType">1</PropertyValue><PropertyValue name="Item14.Data">
+            Console.WriteLine("Please wait");
+
             var result = OtherProgram.Execute(num1, num2).Result;
             Console.WriteLine(result);
 </PropertyValue><PropertyValue name="Item14.Position">15</PropertyValue><PropertyValue name="ItemCount">15</PropertyValue></Category></Category></UserSettings>

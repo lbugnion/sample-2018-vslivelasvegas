@@ -34,6 +34,8 @@ namespace CoreWithMvvmLight
             Console.WriteLine("Enter the second operand");
             var num2 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Please wait");
+
             var result = OtherProgram.Execute(num1, num2).Result;
             Console.WriteLine(result);
         }
