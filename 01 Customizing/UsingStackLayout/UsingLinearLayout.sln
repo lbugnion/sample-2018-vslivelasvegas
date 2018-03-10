@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStackLayout", "UsingStackLayout\UsingStackLayout.csproj", "{567BD28A-DE53-446F-9A7F-8EF5EC1CB53D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingLinearLayout", "UsingLinearLayout\UsingLinearLayout.csproj", "{567BD28A-DE53-446F-9A7F-8EF5EC1CB53D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09344194-AE89-4531-A378-BB6862EEF451}
 	EndGlobalSection
 EndGlobal

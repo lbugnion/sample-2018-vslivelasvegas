@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsingStackLayout.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsingLinearLayout.Resource", IsApplication=true)]
 
-namespace UsingStackLayout
+namespace UsingLinearLayout
 {
 	
 	
