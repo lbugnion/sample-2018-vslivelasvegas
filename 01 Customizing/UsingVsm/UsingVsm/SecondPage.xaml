@@ -32,7 +32,6 @@
                   Margin="0,6">
                 <TextBlock TextWrapping="Wrap"
                            Text="{Binding Mode=OneWay}"
-                           d:LayoutOverrides="Width, Height"
                            VerticalAlignment="Center"
                            Margin="8,0,0,4"
                            Foreground="White"

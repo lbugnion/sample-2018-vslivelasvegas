@@ -7,7 +7,7 @@ namespace MvvmInjection.Data.ViewModel
 {
     public class ViewModelLocator
     {
-        public static readonly bool UseDesignTimeData = true;
+        public static readonly bool UseDesignTimeData = false;
 
         static ViewModelLocator()
         {
