@@ -40,11 +40,8 @@
         </DataTemplate>
     </Page.Resources>
 
-    <Page.DataContext>
-        <StaticResource ResourceKey="Vm" />
-    </Page.DataContext>
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+          DataContext="{StaticResource Vm}">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState x:Name="WideState">

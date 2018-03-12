@@ -5,7 +5,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:ViewModel="using:UsingVsm.ViewModel"
       x:Class="UsingVsm.SecondPage"
-      mc:Ignorable="d">
+      mc:Ignorable="d"
+      FontFamily="Segoe UI">
 
     <Page.Resources>
         <ViewModel:SecondViewModel x:Key="Vm"
@@ -32,19 +33,16 @@
                   Margin="0,6">
                 <TextBlock TextWrapping="Wrap"
                            Text="{Binding Mode=OneWay}"
-                           d:LayoutOverrides="Width, Height"
                            VerticalAlignment="Center"
                            Margin="8,0,0,4"
                            Foreground="White"
-                           FontSize="22" />
+                           FontSize="22"
+                           FontFamily="Segoe UI" />
             </Grid>
         </DataTemplate>
     </Page.Resources>
     
-    <Page.DataContext>
-        <StaticResource ResourceKey="Vm" />
-    </Page.DataContext>
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+          DataContext="{StaticResource Vm}">
     </Grid>
 </Page>
