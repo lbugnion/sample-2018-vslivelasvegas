@@ -15,6 +15,8 @@ http://galasoft.ch/presentations/2018011
 Serverless computing: Azure Functions and Xamarin in 20 minutes
 http://galasoft.ch/presentations/2018012
 
+*Note* the source code for [Azure Function and Xamarin in 20 minutes is in another repo](https://github.com/Azure-Samples/functions-xamarin-getting-started/).
+
 # Content
 
 ## 01 Customizing
@@ -57,10 +59,14 @@ An example using design time data with dependency injection with MVVM Light.
 
 Code samples for Porting MVVM Light to .NET Standard: Lessons Learned
 
-TO BE DONE
+### SharedFiles
 
-## 03 FunctionsAndXamarin
+Windows 10 UWP and Windows Presentation Foundation applications, using shared files to share code.
 
-Code samples for Serverless computing: Azure Functions and Xamarin in 20 minutes
+### Portable
 
-TO BE DONE
+Xamarin.Android, Windows 10 UWP and Windows Presentation Foundation applications, using portable class libraries to share code.
+
+### CoreWithMvvmLight
+
+A .NET Core console app using MVVM Light's IOC container. This runs on Linux too!
