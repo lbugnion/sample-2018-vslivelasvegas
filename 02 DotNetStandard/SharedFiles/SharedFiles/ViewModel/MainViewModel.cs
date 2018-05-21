@@ -1,17 +1,13 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SharedFiles.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        private const string Url = "https://lbxamnamesample.azurewebsites.net/api/api/name/{name}?code=r60jeRhUVHVSTLJv1wvw1TuatTk10GOggCtDlKpOpOX5d00Gmsl0UQ==";
+        private const string Url = "https://lbxamnamesample.azurewebsites.net/api/hello/name/{name}";
 
         private RelayCommand<string> _executeCommand;
         private string _name = string.Empty;
@@ -54,8 +50,8 @@ namespace SharedFiles.ViewModel
                         try
                         {
                             var client = new HttpClient();
-                            Result = await client.GetStringAsync(
-                                Url.Replace("{name}", Name));
+                            var url = Url.Replace("{name}", Name);
+                            Result = await client.GetStringAsync(url);
                         }
                         catch (Exception ex)
                         {

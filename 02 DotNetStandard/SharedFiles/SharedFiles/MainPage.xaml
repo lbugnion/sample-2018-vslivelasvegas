@@ -29,6 +29,7 @@
 
             <TextBlock Text="{Binding Result}"
                        HorizontalAlignment="Center"
+                       TextWrapping="WrapWholeWords"
                        Margin="0,20,0,0"
                        FontSize="36" />
 

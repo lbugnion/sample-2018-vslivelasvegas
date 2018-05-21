@@ -12,10 +12,12 @@ http://galasoft.ch/presentations/2018010
 Porting MVVM Light to .NET Standard: Lessons Learned
 http://galasoft.ch/presentations/2018011
 
+> **NOTE** The "CoreWithMvvmLight" sample showing a .NET Core application with MVVM Light running on Windows and Ubuntu [was moved in its own repository](https://github.com/lbugnion/sample-crossplatform-mvvmdotnetstandard).
+
 Serverless computing: Azure Functions and Xamarin in 20 minutes
 http://galasoft.ch/presentations/2018012
 
-*Note* the source code for [Azure Function and Xamarin in 20 minutes is in another repo](https://github.com/Azure-Samples/functions-xamarin-getting-started/).
+> **NOTE** the source code for [Azure Function and Xamarin in 20 minutes is in another repo](https://github.com/Azure-Samples/functions-xamarin-getting-started/).
 
 # Content
 
@@ -67,6 +69,8 @@ Windows 10 UWP and Windows Presentation Foundation applications, using shared fi
 
 Xamarin.Android, Windows 10 UWP and Windows Presentation Foundation applications, using portable class libraries to share code.
 
-### CoreWithMvvmLight
+### [CoreWithMvvmLight](https://github.com/lbugnion/sample-crossplatform-mvvmdotnetstandard)
 
 A .NET Core console app using MVVM Light's IOC container. This runs on Linux too!
+
+**NOTE** This sample [was moved in its own repository](https://github.com/lbugnion/sample-crossplatform-mvvmdotnetstandard).
